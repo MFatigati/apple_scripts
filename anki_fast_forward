@@ -1,0 +1,7 @@
+delay 3
+repeat 8 times
+	tell application "System Events" to keystroke space
+	delay 0.1
+	tell application "System Events" to keystroke 3
+	delay 0.1
+end repeat
